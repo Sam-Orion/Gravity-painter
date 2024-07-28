@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gravity Painter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="game-canvas"></canvas>
+        <div id="controls">
+            <button id="tilt-left">Tilt Left</button>
+            <button id="tilt-right">Tilt Right</button>
+            <input type="color" id="color-picker" value="#ff0000">
+            <div class="slider-container">
+                <label for="size-slider">Brush Size:</label>
+                <input type="range" id="size-slider" min="1" max="10" value="3">
+                <span id="size-value">3</span>
+            </div>
+            <select id="shape-select">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+                <option value="triangle">Triangle</option>
+            </select>
+            <select id="gravity-select">
+                <option value="earth">Earth</option>
+                <option value="moon">Moon</option>
+                <option value="jupiter">Jupiter</option>
+                <option value="sun">Sun</option>
+                <option value="blackHole">Black Hole</option>
+            </select>
+            <button id="save-btn">Save Painting</button>
+            <button id="add-paint">Add Paint</button>
+            <button id="save-btn">Save Painting</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

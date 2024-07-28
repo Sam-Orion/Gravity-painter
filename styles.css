@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-canvas {
+    border: 2px solid #333;
+    background-color: white;
+}
+
+#controls {
+    margin-top: 10px;
+}
+
+button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+#color-picker {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.slider-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+#size-slider {
+    width: 100px;
+    vertical-align: middle;
+}
+
+#size-value {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}
